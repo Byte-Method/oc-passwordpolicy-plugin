@@ -1,5 +1,7 @@
 <?php namespace ByteMethod\PasswordPolicy;
 
+use Lang;
+use Validator;
 use System\Classes\PluginBase;
 use ByteMethod\PasswordPolicy\Models\Settings;
 
