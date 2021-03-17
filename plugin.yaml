@@ -8,8 +8,8 @@ plugin:
 settings:
     password_policy:
         icon:        'icon-lock'
-        label:       'bytemethod.passwordpolicy::lang.backend.password_policy.label'
-        description: 'bytemethod.passwordpolicy::lang.backend.password_policy.description'
+        label:       'bytemethod.passwordpolicy::lang.backend.settings.label'
+        description: 'bytemethod.passwordpolicy::lang.backend.settings.description'
         class:       '\ByteMethod\PasswordPolicy\Models\Settings'
         category:    'system::lang.system.categories.system'
         permissions:
