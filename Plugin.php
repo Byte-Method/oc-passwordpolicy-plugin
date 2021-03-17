@@ -2,6 +2,7 @@
 
 use Lang;
 use Validator;
+use Backend\Models\User;
 use System\Classes\PluginBase;
 use ByteMethod\PasswordPolicy\Models\Settings;
 

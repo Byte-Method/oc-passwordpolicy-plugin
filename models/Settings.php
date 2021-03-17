@@ -1,9 +1,6 @@
 <?php namespace ByteMethod\PasswordPolicy\Models;
 
-use Lang;
 use Model;
-use Validator;
-use Backend\Models\User;
 
 class Settings extends Model {
 
