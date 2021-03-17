@@ -1,0 +1,72 @@
+fields:
+    enabled:
+        label:   bytemethod.passwordpolicy::lang.backend.settings.form.enabled.label
+        comment: bytemethod.passwordpolicy::lang.backend.settings.form.enabled.comment
+        span:    left
+        type:    switch
+        default: false
+
+    length:
+        label:   bytemethod.passwordpolicy::lang.backend.settings.form.length.label
+        comment: bytemethod.passwordpolicy::lang.backend.settings.form.length.comment
+        span:    left
+        type:    number
+        min:     4
+        max:     255
+        default: 8
+        trigger:
+            action: enable
+            field: enabled
+            condition: checked
+
+    numbers:
+        label:   bytemethod.passwordpolicy::lang.backend.settings.form.numbers.label
+        comment: bytemethod.passwordpolicy::lang.backend.settings.form.numbers.comment
+        span:    left
+        type:    number
+        default: 1
+        min:     0
+        max:     255
+        trigger:
+            action: enable
+            field: enabled
+            condition: checked
+
+    lower_case:
+        label:   bytemethod.passwordpolicy::lang.backend.settings.form.lower_case.label
+        comment: bytemethod.passwordpolicy::lang.backend.settings.form.lower_case.comment
+        span:    left
+        type:    number
+        default: 1
+        min:     0
+        max:     255
+        trigger:
+            action: enable
+            field: enabled
+            condition: checked
+
+    upper_case:
+        label:   bytemethod.passwordpolicy::lang.backend.settings.form.upper_case.label
+        comment: bytemethod.passwordpolicy::lang.backend.settings.form.upper_case.comment
+        span:    left
+        type:    number
+        default: 1
+        min:     0
+        max:     255
+        trigger:
+            action: enable
+            field: enabled
+            condition: checked
+
+    special_char:
+        label:   bytemethod.passwordpolicy::lang.backend.settings.form.special_char.label
+        comment: bytemethod.passwordpolicy::lang.backend.settings.form.special_char.comment
+        span:    left
+        type:    number
+        default: 1
+        min:     0
+        max:     255
+        trigger:
+            action: enable
+            field: enabled
+            condition: checked

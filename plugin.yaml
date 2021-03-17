@@ -1,0 +1,21 @@
+plugin:
+    icon:        'icon-lock'
+    name:        'bytemethod.passwordpolicy::lang.plugin.name'
+    description: 'bytemethod.passwordpolicy::lang.plugin.description'
+    author:      'ByteMethod Consulting'
+    homepage:    'https://www.bytemethod.ca'
+
+settings:
+    password_policy:
+        icon:        'icon-lock'
+        label:       'bytemethod.passwordpolicy::lang.backend.password_policy.label'
+        description: 'bytemethod.passwordpolicy::lang.backend.password_policy.description'
+        class:       '\ByteMethod\PasswordPolicy\Models\Settings'
+        category:    'system::lang.system.categories.system'
+        permissions:
+            - 'bytemethod.passwordpolicy.manage'
+
+permissions:
+    bytemethod.passwordpolicy.manage:
+        tab:   'bytemethod.passwordpolicy::lang.plugin.name'
+        label: 'bytemethod.passwordpolicy::lang.permission.manage'
